@@ -1,17 +1,23 @@
 import ProjectCard from './ProjectCard'
 import Modal from './Modal'
+import { useState } from 'react'
 
 function Projects() {
-    // open, setOpen = useState(false)
+    // const [modal, setModal] = useState(false)
+
+    // const openModal = () => {
+    //     setModal(true);
+    //   };
+
+    // const closeModal = () => {
+    //     setModal(false);
+    // };
 
     return(
         <>
             <div id='Projects' className="bg-white text-xs md:text-base py-20 px-2 md:px-6 lg:px-20">
-                <h1 className="font-semibold text-center text-5xl pb-10">Projects</h1>
-
-                {/* <button onClick={setOpen(true)} className='border-2 rounded-md px-2'>PRESS ME</button> */}
-                
-                <ul className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                <h1 className="font-semibold text-center text-5xl pb-10">Projects</h1>                
+                <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <ProjectCard title="This Portfolio" 
                         desc="This portfolio was made using React, to show details about me and my past projects." 
                     />
@@ -30,10 +36,11 @@ function Projects() {
                 </ul>
             </div>
 
-            { false && (
-                <Modal title='Modal Sample Title'
-                    desc='Modal sample description. Modal sample description. Modal sample description.Modal sample description. Modal sample description. Modal sample description. Modal sample description.' />)
-            }
+            {/* { modal && (
+                <Modal title={props.title}
+                    desc={props.desc}
+                    closeModal={closeModal} />)
+            } */}
         </>
     )
 }
