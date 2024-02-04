@@ -33,7 +33,7 @@ function ProjectCard(props) {
                 </div>
 
                     <div className='flex justify-end text-xs md:text-sm'>
-                        <button onClick={() => setModal(true)} className='w-fit rounded-md px-2 text-blue-500 font-semibold'>Learn more...</button>
+                        <button onClick={() => setModal(true)} className='w-fit rounded-md px-2 text-blue-500 font-semibold'>Learn more</button>
                     </div>
                 </div>
             </li>

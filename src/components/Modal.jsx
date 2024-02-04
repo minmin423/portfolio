@@ -10,7 +10,7 @@ function Modal(props) {
                     <div onClick={props.closeModal} className="absolute top-0 right-0 m-2 p-1 font-bold text-lg cursor-pointer hover:bg-gray-200 text-gray-800 transition-colors duration-300 delay-75 ease-in-out rounded-full">
                         <Icon icon="iconamoon:close-bold" className='text-2xl' />
                     </div>
-                    <div className="bg-blue-400 rounded-tr-xl lg:rounded-tr-none lg:rounded-l-xl h-full w-full lg:w-1/2"></div>
+                    <div className="bg-blue-400 rounded-t-xl lg:rounded-tr-none lg:rounded-bl-xl h-full w-full lg:w-1/2"></div>
                     <div className="w-full lg:w-1/2 pl-4 pr-10 py-5 flex flex-col gap-2">
                         <div className="font-semibold text-xl">{props.title}</div>
                         <div>{props.desc}</div>
