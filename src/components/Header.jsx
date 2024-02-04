@@ -14,7 +14,7 @@ function Header() {
 
             <ul className="hidden md:flex gap-1">
                 {headerItems.map((item, index) => (
-                    <a className="rounded-xl px-2 cursor-pointer hover:bg-blue-50 duration-300 delay-75 ease-in-out transition-colors" key={index} href={`#` + item}>
+                    <a className="rounded-xl px-2 py-1 cursor-pointer hover:bg-blue-50 duration-300 delay-75 ease-in-out transition-colors" key={index} href={`#` + item}>
                         <li key={index}>{item}</li>
                     </a>
                 ))}

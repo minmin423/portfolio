@@ -16,7 +16,9 @@ function ProjectCard(props) {
     return(
         <>
             <li className="flex justify-between border rounded-xl cursor-pointer hover:scale-105 transition-transform duration-300 delay-75 ease-in-out shadow-xl">
-                <div className="h-full w-1/3 bg-blue-500 rounded-l-xl"></div>
+                <div className="h-full w-1/3 bg-blue-100 rounded-l-xl">
+                    <Icon icon={props.logo} className='h-full w-full px-8 text-gray-600' />
+                </div>
 
                 <div className="w-2/3 pl-2 pr-4 py-4 flex flex-col justify-between gap-1">
                 <div>
