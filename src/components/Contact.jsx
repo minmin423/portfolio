@@ -19,7 +19,7 @@ function Contact() {
                         <h2 className='pb-2 md:pb-10 pt-10 md:pt-0 text-center md:text-start'>Connect with me on these platforms!</h2>
                         
                         <div className='flex flex-col gap-4'>
-                            <ContactCard icon="logos:linkedin-icon" title="LinkedIn" subtitle="michaelangelodc423" link="www.linkedin.com/in/michaelangelodc423" />
+                            <ContactCard icon="logos:linkedin-icon" title="LinkedIn" subtitle="michaelangelodc423" link="https://www.linkedin.com/in/michaelangelodc423" />
                             <ContactCard icon="logos:github-icon" title="Github" subtitle="minmin423" link="https://github.com/minmin423" />
                             <ContactCard icon="bi:twitter-x" title="X (Twitter)" subtitle="@michaeldc_dev" link="https://twitter.com/michaeldc_dev
 " />
