@@ -4,7 +4,7 @@ import AboutCard from './AboutCard'
 function About() {    
 
     return (
-        <div id='About' className='px-2 md:px-6 lg:px-10 pb-32 pt-20 bg-gray-100'>
+        <div id='About' className='px-2 md:px-6 lg:px-10 pb-32 pt-20 bg-gray-100 dark:bg-gray-700 dark:text-white'>
           <h1 className='text-center pb-6 font-semibold text-5xl'>About</h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full text-center text-sm lg:text-base pb-10 lg:pb-0 lg:px-10 h-fit">

@@ -15,26 +15,22 @@ function ProjectCard(props) {
 
     return(
         <>
-            <li className="flex justify-between border rounded-xl cursor-pointer hover:scale-105 transition-transform duration-300 delay-75 ease-in-out shadow-xl">
-                <div className="h-full w-1/3 bg-blue-100 rounded-l-xl">
-                    <Icon icon={props.logo} className='h-full w-full px-8 text-gray-600' />
+            <li className="flex justify-between border dark:border-gray-500/80 rounded-xl cursor-pointer hover:scale-105 transition-transform duration-300 delay-75 ease-in-out shadow-xl dark:shadow-gray-800">
+                <div className="h-full w-1/5 bg-blue-100 dark:bg-slate-600 rounded-l-xl">
+                    <Icon icon={props.logo} className='h-full w-full px-4 text-gray-600 dark:text-gray-200' />
                 </div>
 
-                <div className="w-2/3 pl-2 pr-4 py-4 flex flex-col justify-between gap-1">
+                <div className="w-4/5 pl-2 pr-4 py-4 flex flex-col justify-between gap-1">
                 <div>
                     <div className="flex justify-between gap-2">
-                        <h2 className="font-semibold text-xl">{props.title}</h2>
-                        <div className="flex gap-1">
-                            <div title='React JS Library' className="hover:bg-blue-100 duration-150 delay-75 transition-colors ease-in-out bg-white-600 border p-1 rounded-full h-8 w-8 flex items-center justify-center text-white">
-                                <Icon title='react' icon="logos:react" className='h-full w-full' />
-                            </div>
-                        </div>
+                        <h2 className="font-semibold text-base lg:text-lg">{props.title}</h2>
                     </div>
 
-                    <p>{props.desc}</p>
+                    <p className='text-xs lg:text-sm'>{props.desc}</p>
                 </div>
 
-                    <div className='flex justify-end text-xs md:text-sm'>
+                    <div className='flex justify-between text-xs md:text-sm pt-2'>
+                        {props.techStack}
                         <button onClick={() => setModal(true)} className='w-fit rounded-md px-2 text-blue-500 font-semibold'>Learn more</button>
                     </div>
                 </div>

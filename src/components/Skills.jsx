@@ -3,8 +3,8 @@ import SkillBox from "./SkillBox"
 function Skills() {
 
     return(
-    <div id='Skills' className='bg-white h-fit w-full px-2 md:px-6 lg:px-20 pb-32 pt-20'>
-        <h1 className='text-center pb-6 font-semibold text-5xl'>Skills</h1>
+    <div id='Skills' className='bg-white dark:bg-slate-600 dark:text-white h-fit w-full px-2 md:px-6 lg:px-20 pb-32 pt-20'>
+        <h1 className='ease- text-center pb-6 font-semibold text-5xl'>Skills</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <SkillBox title="Front-end"
